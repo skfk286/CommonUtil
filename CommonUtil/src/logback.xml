@@ -7,7 +7,7 @@
 
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern> %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern> %d{HH:mm:ss.SSS} [%thread] [%-5level] %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 <!--
@@ -26,7 +26,6 @@
         </rollingPolicy>
     </appender>
 -->
-    <logger name="com.idrsoft.simulator" level="debug"/>
 
     <root level="info">
         <appender-ref ref="console"/>
