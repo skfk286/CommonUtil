@@ -1,19 +1,15 @@
 package com.ycjung.test;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println("Hello JavaWorld!!");
+        List<String> list = Arrays.asList("A", "B", "C", "D", "E");
 
-        System.out.println("Input Number :");
-        Scanner in = new Scanner(System.in);
+        list.stream().forEach(System.out::println);
 
-        int number = in.nextInt();
-
-        for(int i=1; i<=9; i++) {
-            System.out.println(number + " x " + i + " = " + number * i);
-        }
     }
 }
