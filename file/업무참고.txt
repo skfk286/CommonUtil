@@ -1,0 +1,10 @@
+# 1. OS에 따라 프로젝트 위치 path정보 반환
+
+if (OS.toLowerCase().indexOf("win") < 0) {
+    try {
+        URL url = ResourceUtils.getURL("classpath:");
+        filePath = url.getPath() + "/temp/";
+    }catch(Exception e) {
+        e.printStackTrace();
+    }
+}
