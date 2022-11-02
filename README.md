@@ -16,6 +16,3 @@
         - Web - HTML Files - Editor > Indent using spaces 선택 후 size는 4로 설정
         - XML - XML Files - Editor > Indent using spaces 선택 후 size는 4로 설정
 	    - General - Editors - Text Editors > Show whitespace characters 체크
-      - MAVEN 저장소 설정<br>
-        ![Maven](./images/path_maven.png)<br>
-        User Settings > Browse...에서 C:\Workspaces\maven\settings.xml 선택
