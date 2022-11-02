@@ -2,7 +2,7 @@
 공통 유틸 클래스 관리
 
 
-# 이클립스 환경 설정 저장
+# IDE 공통 설정
 
   - IDE(통합개발환경) - Eclipse 설정
     - 상단 메뉴바에서 Window - Preferences 선택
