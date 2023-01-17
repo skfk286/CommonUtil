@@ -2,6 +2,8 @@ package com.ycjung.test;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 import java.util.Scanner;
 
 public class Test {
@@ -11,5 +13,6 @@ public class Test {
 
         list.stream().forEach(System.out::println);
 
+        System.out.println("Optional.ofNullable(list) : " + Optional.ofNullable(list));
     }
 }
